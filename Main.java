@@ -8,7 +8,7 @@ public class Main{
         int result = 0;
         String operator = "";
 
-        System.out.print("Please enter a expression: ");
+        System.out.print("수식을 입력해주세요: ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         number1 = Integer.parseInt(st.nextToken());
