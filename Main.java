@@ -49,7 +49,7 @@ public class Main{
     {
         return number1 * number2;
     }
-    //2
+    
     public static int div(int number1, int number2)
     {   
         if(number2==0){
