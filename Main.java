@@ -34,7 +34,7 @@ public class Main{
                 result = div(number1, number2);
                 break;
         }
-        System.out.println("result is " + result + ".");
+        System.out.println("결과는 " + result + ".");
     }
     public static int add(int number1, int number2)
     {
