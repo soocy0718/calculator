@@ -44,7 +44,7 @@ public class Main{
     {
         return number1 - number2;
     }
-    
+    // 1
     public static int multi(int number1, int number2)
     {
         return number1 * number2;
@@ -57,4 +57,5 @@ public class Main{
         }
         return number1 / number2;
     }
+    //3
 }
