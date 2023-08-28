@@ -45,8 +45,10 @@ public class Main{
     }
     
     public static int div(int number1, int number2)
-    {
-        //TODO implementation
-        return 0;
+    {   
+        if(number2==0){
+            throw new IllegalArgumentException("분모 0으로 나눌 수 없습니다"); 
+        }
+        return number1 / number2;
     }
 }
