@@ -32,8 +32,7 @@ public class Main{
     }
     public static int add(int number1, int number2)
     {
-        //TODO implementation
-        return 0;
+        return number1 + number2;
     }
     public static int sub(int number1, int number2)
     {
